@@ -786,8 +786,8 @@ section::after {
     min-height: 100%;
     overflow: hidden;
     background-position: top center;
-    vertical-align: sub;
-    width: 100%%;
+    /* vertical-align: sub; */
+    width: 100%;
     z-index: 2;
 }
 
@@ -1887,3 +1887,6 @@ a,
     right: 33.33%
 }
 }
+
+/* Carousel */
+
