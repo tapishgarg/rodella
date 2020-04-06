@@ -1615,12 +1615,12 @@ a,
 
 .frame {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   margin-top: -200px;
-  margin-left: -200px;
+  margin-left: -100px;
   border-radius: 2px;
   /*background: black;*/
   color: #fff;
@@ -1889,3 +1889,46 @@ a,
 }
 
 /* Carousel */
+
+
+.horizontal-slider {
+  width: 500px;
+  height: 950px;
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.h-items {
+  width: 300%;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.h-items>li {
+  display: inline-block;
+  font-size: 12pt;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 30px;
+}
+
+.next {
+  right: 0px;
+}
