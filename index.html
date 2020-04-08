@@ -27,6 +27,7 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/colors.css" rel="stylesheet">
     <link href="css/magicscroll.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <script src="js/magicscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
@@ -68,7 +69,8 @@
         <video id="videoBG" poster="upload/rodella.png" autoplay muted loop>
             <div class="magnifier grd3"></div>
             <source src="upload/rodella.png" type="video/mp4">
-        </video>
+            </video>
+
 
         <!-- <section class="hero" style="margin-top: -65px">
             <div class="magnifier grd3"></div>
@@ -170,6 +172,76 @@
             </div>
             </div>
 
+        </section>
+
+
+        <section id="contact" class="section bt littlepad">
+
+  
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post" action="contact.php">
+                                <fieldset>
+                                    <h1 style="color:#3b7f25;text-align: center;">Contact Us</h1>
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-12">
+                                            <textarea id="name" name="name" type="text" placeholder="Name" class="form-control" style="color: black; background-color: #bdbdbd;" ></textarea>
+                                        </div>
+                                    </div>
+                                    
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-12">
+                                            <textarea id="email" name="email" type="text" placeholder="Email Address" class="form-control" style="color: black; background-color: #bdbdbd;" ></textarea>
+                                        </div>
+                                    </div>
+            
+                                    <!-- <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                        </div>
+                                    </div> -->
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-12">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="1" style="color: black; background-color: #bdbdbd;" ></textarea>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg" style="background-color: #3b7f25; padding-top: 8px;">Submit</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <style>
+                .header {
+                    color: #3b7f25;
+                    font-size: 27px;
+                    padding: 10px;
+                }
+            
+                .bigicon {
+                    font-size: 35px;
+                    color: #3b7f25;
+                }
+            </style>
+                
+                
         </section>
         
        
