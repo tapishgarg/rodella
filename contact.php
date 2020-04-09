@@ -11,7 +11,7 @@
                     "User Email: $visitor_email\n".
                         "User Message: $message\n";
                         
-    $to = "adrainx0398@gmail.com";
+    $to = "query@rodellalabs.in";
 
     $headers = "From : $email_from \r\n";
 
