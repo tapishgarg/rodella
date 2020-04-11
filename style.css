@@ -1652,8 +1652,6 @@ a,
 
 .rounded {
   position: absolute;
-  width: 220px;
-  height: 220px;
   top: 90px;
   left: 90px;
   width: 200px;
@@ -1922,6 +1920,19 @@ a,
   overflow: hidden;
   position: relative;
 }
+
+@media only screen and (max-width:550px){
+    .horizontal-slider{
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width:366px){
+    .horizontal-slider{
+        height: 680px;
+    }
+}
+
 
 .h-items {
   width: 300%;
