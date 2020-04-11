@@ -1583,10 +1583,10 @@ div.sidewrapper.sidenav {
 }
 .dmtop {
     background-color: #1a1d2f;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color:#ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color:#28f932;
     position: fixed;
     bottom: -100px;
     border-radius: 500px;
@@ -1599,7 +1599,7 @@ div.sidewrapper.sidenav {
 .dmtop:hover,
 .dmtop:focus {
     background-color: #ffffff;
-    color:#1a1d2f;
+    color:#28f932;
 }
 
 a,
