@@ -1927,9 +1927,9 @@ a,
     }
 }
 
-@media only screen and (max-width:366px){
+@media only screen and (max-width:376px){
     .horizontal-slider{
-        height: 680px;
+        height: 750px;
     }
 }
 
