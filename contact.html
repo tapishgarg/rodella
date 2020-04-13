@@ -41,55 +41,249 @@
 </head>
 
 <body>
-    <section id="contact">
-  
-        <h1 class="section-header">Contact Us</h1>
-        
-        <div class="contact-wrapper">
-          
-            <!---------------- 
+
+  <div class="navbar-fixed" style="margin-top: 0px;">
+    <nav class="add">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo center"><p class='rodella fontbody'>rodella</p></a>
+      <a href='#' class='sidenav-trigger' data-target='mobile-nav'>
+        <i class='material-icons'>menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class='margin-3'><a href="#contact"><p class='p'>Contact</p></a></li>
+        <li class='margin-4'><a href="gallery.html"><p class='p'>Gallery</p></a></li>
+    </ul>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li class='margin'><a href="index.html"><p class='p'>About</p></a></li>
+        <li class='margin-2'><a href="products.html"><p class='p'>Projects</p></a></li>
+    </ul>
       
-            CONTACT PAGE LEFT 
-          
-            -----------------> 
-          
-          <form class="form-horizontal" method="post" action="contact.php">
-             
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
-              </div>
+    </div>
+  </nav>
+  <ul class='sidenav' id='mobile-nav' style="margin-top: 20px; margin-left: -100px; text-align: center;">
+    <li class='color'><a  href="index.html"><p class='col'>About</p></a></li>
+        <li class='color'><a  href="#projects"><p class='color'>Projects</p></a></li>
+     <li class='color'><a href="#contact"><p class='color'>Contact</p></a></li>
+        <li class='color'><a href="gallery.html"><p class='color'>Gallery</p></a></li>
+  </ul>
+  </div>
+
+  <section id="contact" class="section bt littlepad">
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post" action="contact.php">
+                        <fieldset>
+                            <h1 style="color:#3b7f25;text-align: center;">Contact Us</h1>
+                            <br>
+                            <br>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <textarea id="name" name="name" type="text" placeholder="Name" class="form-control" style="color: black; background-color: #bdbdbd; text-align: center; font-size: 20px; resize: none;" ></textarea>
+                                </div>
+                                <div class="col-md-4"></div>
+                                </div>
+                            </div>
+                            
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <textarea id="email" name="email" type="text" placeholder="Email Address" class="form-control" style="color: black; background-color: #bdbdbd; text-align: center; font-size: 20px; resize: none;" ></textarea>
+                                </div>
+                                <div class="col-md-4"></div>
+                                </div>
+                            </div>
+    
+                            <!-- <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                </div>
+                            </div> -->
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here." cols="30" rows="5" style="color: black; background-color: #bdbdbd; height: 160px; text-align: center; font-size: 20px;" ></textarea>
+                                </div>
+
+                                </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg" style="background-color: #3b7f25; padding-top: 8px;">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
-      
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
-              </div>
-            </div>
-      
-            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
-            
-            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-              <div class="button">
-                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-              </div>
-            
-            </button>
-            
-          </form>
-          
-            <!---------------- 
-      
-            CONTACT PAGE RIGHT 
-          
-            -----------------> 
-          
-            
-          
         </div>
+    </div>
+    
+    <style>
+        .header {
+            color: #3b7f25;
+            font-size: 27px;
+            padding: 10px;
+        }
+    
+        .bigicon {
+            font-size: 25px;
+            color: #3b7f25;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
         
-      </section>  
         
+</section>
+
+<footer class="footer section" style="background-color: black; border-top: 1px solid white" id="contact" >
+  <div class="container"> 
+      <div class="row">
+          <div class="col-md-4">
+              <div class="widget">
+                  <!-- <a href="index.html" title=""><img src="images/flogo.png" class="footer-logo" style="margin-left: 5px;" alt=""></a> -->
+                  <h4 class="widget-title">
+                      Rodella
+                  </h4>
+                  
+              </div><!-- end widget -->
+          </div><!-- end col -->
+          <div class="col-md-8 mobmartop30">
+              <div class="widget">
+
+                  <div class="widget">
+                      <div class="contact-widget">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <h4 class="widget-title">
+                                      <i class="fa fa-map-marker"></i> Our Lab
+                                  </h4>  
+                                  <p>1st floor, Composites Technology Center, Dept. of Aero, IITM. Chennai </p>
+                              </div><!-- end col -->
+
+                              <div class="col-md-4">
+                                  <h4 class="widget-title">
+                                      <i class="fa fa-phone"></i> Phone
+                                  </h4>  
+                                  <p>+91 6380 897 553</p>
+                              </div><!-- end col -->
+
+                              <div class="col-md-4">
+                                  <h4 class="widget-title">
+                                      <i class="fa fa-envelope-open-o"></i>  Email
+                                  </h4>  
+                                  <p>query@rodellalabs.in</p>
+                              </div><!-- end col -->
+                          </div><!-- end row -->
+                      </div><!-- end contact-widget -->
+                  </div><!-- end widget -->
+              </div><!-- end widget -->
+          </div><!-- end col -->
+      </div><!-- end row -->
+
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <div class="footer-social">
+                  <div itemscope="" itemtype="http://schema.org/Organization">
+                      <a class="social-icon" target="_blank" itemprop="sameAs" href="#"><i class="fa fa-facebook"></i></a>
+                      <a class="social-icon" target="_blank" itemprop="sameAs" href="#"><i class="fa fa-twitter"></i></a>
+                      <a class="social-icon" target="_blank" itemprop="sameAs" href="#"><i class="fa fa-google-plus"></i></a>
+                      <a class="social-icon" target="_blank" itemprop="sameAs" href="#"><i class="fa fa-code"></i></a>
+                  </div>
+              </div>
+              <div class="footer-copy">
+                  <p>© 2020 All Rights Reserved to <a href="#">Tapish</a> </p>
+              </div><!-- end copy -->
+          </div><!-- end col -->
+      </div><!-- end row -->
+  </div><!-- end container -->
+</footer><!-- end footer -->
+        
+<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        var hsuma = 0;
+        $(document).ready(function(){
+        $(".next").click(function(){
+            hsuma += -100;
+            if(hsuma>=-200)
+            $(".h-items").animate({marginLeft:hsuma+"%"},"medium");
+            else{
+            hsuma = 0;
+            $(".h-items").animate({marginLeft:hsuma+"%"},"medium");
+            }
+        });
+        
+        
+        $(".prev").click(function(){
+            if(hsuma==0){
+            hsuma = -200;
+            $(".h-items").animate({marginLeft:hsuma+"%"},",medium");
+            }
+            else{
+            hsuma += 100;
+            $(".h-items").animate({marginLeft:hsuma+"%"},"medium");
+            }
+        });
+        });
+    </script>
+
+    <script>
+
+         $(document).ready(function(){
+          
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>-10){
+              $('nav').addClass('add');
+            }else{
+              $('nav').removeClass('add');
+            }
+
+          });
+
+     });
+
+         $(document).ready(function(){
+          
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>800){
+              $('.sidenav').addClass('colc');
+            }else{
+              $('.sidenav').removeClass('colc');
+            }
+
+          });
+
+     });
+        
+    
+
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+  </script>
         
  </body>
  </html>
