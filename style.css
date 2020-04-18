@@ -1914,22 +1914,55 @@ a,
 
 
 .horizontal-slider {
-  width: 500px;
-  height: 950px;
+  width: 800px;
+  height: 650px;
   background: black;
   overflow: hidden;
   position: relative;
 }
 
+
+.prev,
+.next {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
 @media only screen and (max-width:550px){
     .horizontal-slider{
-        height: 800px;
+        height: 450px;
+    }
+
+    .prev,
+    .next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
     }
 }
 
 @media only screen and (max-width:376px){
     .horizontal-slider{
-        height: 750px;
+        height: 400px;
+    }
+    .prev,
+    .next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
     }
 }
 
@@ -1953,16 +1986,7 @@ a,
   position: relative;
 }
 
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px;
-  cursor: pointer;
-  color: black;
-  font-size: 30px;
-}
+
 
 .next {
   right: 0px;
