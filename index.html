@@ -156,9 +156,9 @@
             <div style="display: flex; justify-content: center; margin-bottom: 10px;">
             <div class="horizontal-slider">
             <ul class="h-items">
-                <li><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 1</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
-                <li><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 2</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
-                <li><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 3</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
+                <li class="slide"><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 1</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
+                <li class="slide"><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 2</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
+                <li class="slide"><h4 style="text-align: center; color: #979797; padding-bottom: 20px; font-size: 25px;">Model 3</h4><img src="upload/sample.jpg" alt="" class="img-fluid"></li>
             </ul>
             <a href="#" class="btn btn-gradient withradius secbtn withicon" style="background-color: #3B7F25; padding-top: 10px; display: flex; justify-content: center; width: auto; margin-top: 40px;">See more examples <i class="fa fa-long-arrow-right" style="margin-top: -2px; color: white"></i></a>
             <div class="h-controlls">
@@ -420,8 +420,58 @@
 	   $('.preloader-wrapper')
 		.delay(2000)
 		.fadeOut();
-});
+    });
    </script>
+
+   <script>
+       $(function() {
+
+    var inWrap = $('.h-items'),
+    $slide = $('.slide');
+
+
+    function slideNext() {
+
+        inWrap.animate({left: '-200%'}, 200, function() {
+    
+        inWrap.css('left', '-100%');
+    
+        $('.slide').last().after($('.slide').first());
+    
+        });
+    
+    }
+
+
+    //Enabling auto scroll
+    sliderInterval = setInterval(slideNext, 3000);
+
+
+
+    // $('.prev').on('click', function() {
+
+    //     inWrap.animate({left: '0%'}, 200, function() {
+
+    //     inWrap.css('left', '-100%');
+
+    //     $('.slide').first().before($('.slide').last());
+
+    //     });
+    // });
+
+
+    // $('.next').on('click', function() {
+
+    //     clearInterval(sliderInterval);
+
+    //     slideNext();
+
+    // });
+
+
+    });
+   </script>
+   
 
 </body>
 </html>
