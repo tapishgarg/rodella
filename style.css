@@ -1991,3 +1991,22 @@ a,
 .next {
   right: 0px;
 }
+
+
+
+/* Video */
+
+.o-video {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: 56.25%; /* 9 / 16 * 100 */
+  }
+  .o-video > iframe {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border: 0;
+  }
