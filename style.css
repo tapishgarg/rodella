@@ -1908,6 +1908,13 @@ a,
 .col-md-pull-8{
     right: 33.33%
 }
+.col-md-push-6{
+    left: 50%
+}
+
+.col-md-pull-6{
+    right: 50%
+}
 }
 
 /* Carousel */
