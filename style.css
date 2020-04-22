@@ -2010,3 +2010,18 @@ a,
     left: 20%;
     border: 0;
   }
+
+  .s-video {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    padding-top: 56.25%; /* 9 / 16 * 100 */
+  }
+  .s-video > iframe {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: 0;
+  }
