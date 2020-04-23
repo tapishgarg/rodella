@@ -217,6 +217,18 @@
         </div><!-- end row -->
     </div><!-- end container -->
 </footer><!-- end footer -->
+
+<!-- Loader 
+    ================================================  -->
+    <div class="preloader-background">
+        <div class="frame">
+            <div class="rounded">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+            </div>
+        </div>
+    </div>
         
 <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -286,6 +298,13 @@
     $(document).ready(function(){
         $('.sidenav').sidenav();
     });
+
+    document.addEventListener("DOMContentLoaded", function(){
+       $('.preloader-background').delay(1000).fadeOut();
+       $('.preloader-wrapper')
+        .delay(1000)
+        .fadeOut();
+});
   </script>
         
  </body>
