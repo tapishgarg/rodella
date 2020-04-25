@@ -79,6 +79,9 @@
                         <fieldset>
                             <h1 style="color:#3b7f25;text-align: center;">Contact Us</h1>
                             <br>
+                            <?php
+                            if(isset($_GET['msg'])) echo $_GET['msg'];
+                            ?>
                             <br>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
