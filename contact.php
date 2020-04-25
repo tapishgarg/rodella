@@ -19,6 +19,14 @@
 
     mail($to, $email_subject, $email_body, $headers);
 
-    header("Location: index.html")
+    header("Location: index.html");
+    
+    if (mail ($to, $subject, $body, $from)) { 
+        $success = "Message successfully sent";
+     } else {
+         $success = "Message Sending Failed, try again";
+     }
+ 
+     echo $success;
 
 ?>
