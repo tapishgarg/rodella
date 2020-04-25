@@ -1975,7 +1975,7 @@ a,
 
 
 .h-items {
-  width: 300%;
+  width: 400%;
   font-size: 0;
   list-style: none;
   margin: 0;
@@ -1987,7 +1987,7 @@ a,
 .h-items>li {
   display: inline-block;
   font-size: 12pt;
-  width: 33.33%;
+  width: 25%;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
