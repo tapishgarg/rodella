@@ -70,18 +70,14 @@
 
   <section id="contact" class="section">
 
-    <br>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <form class="form-horizontal" method="post" action="contact.php">
+                    <form class="form-horizontal" method="post" action="contact.php" id="frmDemo">
                         <fieldset>
                             <h1 style="color:#3b7f25;text-align: center;">Contact Us</h1>
                             <br>
-                            <?php
-                            if(isset($_GET['msg'])) echo $_GET['msg'];
-                            ?>
                             <br>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -309,6 +305,7 @@
         .fadeOut();
 });
   </script>
+
         
  </body>
  </html>
