@@ -21,6 +21,6 @@
 
     $msg = "Query Submitted Successfully!";
 
-    header("Location: contact.html?msg=".$msg);
+    header("Location: submit.php?msg=".$msg);
 
 ?>
