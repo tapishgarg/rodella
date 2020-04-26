@@ -74,11 +74,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="well well-sm">
-                    <h1 style="color:#3b7f25;text-align: center;">
+                    <h2 style="color:#3b7f25;text-align: center;">
                     <?php
                         if(isset($_GET['msg'])) echo $_GET['msg']
                         ?>
-                        </h1>
+                        </h2>
                 </div>
             </div>
         </div>
