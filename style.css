@@ -231,22 +231,27 @@ font-weight: bolder;
 }
 
 .margin{
-    margin-left:70px;
+    margin-left:100px;
 }
 
 .margin-2{
-    margin-left:120px;
+    margin-left:150px;
+}
+.margin-3{
+    margin-left:200px;
+}
+
+.margin-5{
+    margin-right:150px;
 }
 
 .margin-4{
-    margin-right:70px;
+    margin-right:200px;
 }
 
-.margin-3{
-    margin-right:120px;
+.margin-6{
+    margin-right: 100px
 }
-
-
 
 }
 
