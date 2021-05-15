@@ -188,12 +188,12 @@ html{
 }
 
 .margin-2{
-    margin-left:200px;
+    margin-left:150px;
     margin-top: 15px; 
 }
 
 .margin-4{
-    margin-right:100px;
+    margin-right:200px;
     margin-top: 15px;
 }
 
@@ -201,7 +201,14 @@ html{
     margin-right:200px;
     margin-top: 15px;
 }
-
+.margin-5{
+    margin-right:150px;
+    margin-top: 15px; 
+}
+.margin-6{
+    margin-right:100px;
+    margin-top: 15px; 
+}
 .rodella{
 font-family: rounded_eleganceregular;
 font-size:2rem;
