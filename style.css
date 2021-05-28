@@ -2046,7 +2046,7 @@ a,
   display: table;
 }
 .zoom {
-  padding: 0px;
+  padding: -5px;
   background-color: black;
   transition: transform .2s; /* Animation */
   
@@ -2054,5 +2054,5 @@ a,
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
