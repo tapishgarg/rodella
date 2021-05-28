@@ -38,21 +38,25 @@
 
     <![endif]-->
 <style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
   float: left;
-  width: 50%;
-  padding: 5px;
+  width: 180px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 </style>
 </head>
@@ -171,21 +175,34 @@
        
             
             <!-- <h3 style="color:#3de612;text-align: center;">Take a Look Around our Outstanding Examples</h3> -->
-         <center>   
-            <!-- <hr /> -->
-           <div class="row">
-  <div class="column">
-    <img src="images/m1.png"style="width:90%; border: 1px solid #3de612;">
-  </div>
-  <div class="column">
-    <img src="images/m2.png"style="width:90%; border: 1px solid #3de612;">
-  </div>
-  <br/>
-  <div class="column">
-    <img src="images/m3.png"style="width:90%; border: 1px solid #3de612;">
-  </div>
-</div> 
-      </center>
+        <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="images/m1.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="images/m2.png" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="images/m3.png" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="images/m4.png" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
 </section>
 
         
