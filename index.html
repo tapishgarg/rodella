@@ -37,6 +37,24 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
     <![endif]-->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
 
@@ -161,7 +179,7 @@
   </div>
   <div class="column">
     <img src="images/m2.png"style="width:80%; border: 1px solid #555;">
-  </div></div><div class="row">
+  </div>
   <div class="column">
     <img src="images/m3.png"style="width:80%; border: 1px solid #555;">
   </div>
