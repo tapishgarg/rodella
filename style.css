@@ -2034,7 +2034,7 @@ a,
   }
 
   .column {
-  float: left;
+  float: center;
   width: 50%;
   padding: 2px;
 }
