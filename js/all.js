@@ -74,7 +74,7 @@ $('#testimonial_01').owlCarousel({
     }
 })
 
-$('#works_01').owlCarousel({
+$('#techs_01').owlCarousel({
     loop:true,
        animateOut: 'slideOutDown',
     animateIn: 'flipInX',
