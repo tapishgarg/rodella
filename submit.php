@@ -50,23 +50,24 @@
         <i class='material-icons'>menu</i>
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class='margin-3'><a href="#contact"><p class='p'>Contact</p></a></li>
+        <li class='margin-3'><a href="contact.html"><p class='p'>Contact</p></a></li>
         <li class='margin-4'><a href="gallery.html"><p class='p'>Gallery</p></a></li>
     </ul>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li class='margin'><a href="index.html"><p class='p'>About</p></a></li>
-        <li class='margin-2'><a href="tech.html"><p class='p'>Technology</p></a></li>
+        <li class='margin'><a href="tech.html"><p class='p'>Tech</p></a></li>
+        <li class='margin-2'><a href="team.html"><p class='p'>Team</p></a></li>
     </ul>
       
     </div>
   </nav>
   <ul class='sidenav' id='mobile-nav' style="margin-top: 20px; margin-left: -100px; text-align: center;">
-    <li class='color'><a  href="index.html"><p class='col'>About</p></a></li>
-        <li class='color'><a  href="tech.html"><p class='color'>Technology</p></a></li>
-     <li class='color'><a href="#contact"><p class='color'>Contact</p></a></li>
+    <li class='color'><a  href="tech.html"><p class='col'>Tech</p></a></li>
+        <li class='color'><a  href="team.html"><p class='color'>Team</p></a></li>
+     <li class='color'><a href="contact.html"><p class='color'>Contact</p></a></li>
         <li class='color'><a href="gallery.html"><p class='color'>Gallery</p></a></li>
   </ul>
   </div>
+
 
   <section id="contact" class="section">
 
