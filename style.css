@@ -2045,6 +2045,11 @@ a,
   clear: both;
   display: table;
 }
+
+.greenborder {
+    border: 2px solid green;
+}
+    
 .zoom {
   padding: -5px;
   background-color: black;
